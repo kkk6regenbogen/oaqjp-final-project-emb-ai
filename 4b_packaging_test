@@ -1,0 +1,1 @@
+python3 -c "import EmotionDetection; from EmotionDetection.emotion_detection import emotion_detector; print(emotion_detector('I am glad this is working'))" > 4b_packaging_test

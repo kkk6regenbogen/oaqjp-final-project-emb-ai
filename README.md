@@ -1,2 +1,1 @@
-# final_project_
-This is final project
+# 2a_emotion_detection

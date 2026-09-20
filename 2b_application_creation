@@ -1,0 +1,3 @@
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> emotion_detector("I am so happy I am doing this")
+'{"emotionPredictions": [{"emotion": {"anger": 0.003115164, "disgust": 0.002001157, "fear": 0.00122114, "joy": 0.9582121, "sadness": 0.00411201}, "target": "", "emotionMentions": [{"span": {"begin": 0, "end": 28, "text": "I am so happy I am doing this"}, "emotion": {"anger": 0.003115164, "disgust": 0.002001157, "fear": 0.00122114, "joy": 0.9582121, "sadness": 0.00411201}}]}], "producerId": {"name": "Emotion Aggregated Workflow", "version": "0.0.1"}}'
