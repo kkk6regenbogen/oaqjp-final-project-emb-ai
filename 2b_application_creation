@@ -1,3 +1,5 @@
+theia@theiadocker:/home/project$ python3
+Python 3.10.x ...
 >>> from EmotionDetection.emotion_detection import emotion_detector
 >>> emotion_detector("I am so happy I am doing this")
-{ 'anger': 0.0043079085, 'disgust': 0.00041127237,'fear': 0.0037504788, 'joy': 0.9918804, 'sadness': 0.014091322}
+'{"emotionPredictions": [{"emotion": {"anger": 0.0043079085, "disgust": 0.00041127237, "fear": 0.0037504788, "joy": 0.9918804, "sadness": 0.014091322}, "target": "", "emotionMentions": [...]}], "producerId": {...}}'
