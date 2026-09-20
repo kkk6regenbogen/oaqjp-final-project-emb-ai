@@ -1,1 +1,3 @@
-<function emotion_detector at 0x71d98f4a5480>
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> emotion_detector("I am really mad about this")
+{'anger': 0.6674731, 'disgust': 0.022848725, 'fear': 0.09749009, 'joy': 0.011863918, 'sadness': 0.1953058, 'dominant_emotion': 'anger'}
