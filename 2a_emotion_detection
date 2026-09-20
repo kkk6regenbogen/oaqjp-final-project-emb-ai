@@ -1,7 +1,8 @@
 import requests
 
 
-def emotion_detector(text_to_analyze):
+def emotion_detector(text_to_analyse):
+    """Send text to the Watson NLP Emotion Detection service."""
 
     url = (
         "https://sn-watson-emotion.labs.skills.network/"
@@ -15,7 +16,7 @@ def emotion_detector(text_to_analyze):
 
     myobj = {
         "raw_document": {
-            "text": text_to_analyze
+            "text": text_to_analyse
         }
     }
 
@@ -25,8 +26,4 @@ def emotion_detector(text_to_analyze):
         headers=headers
     )
 
-    formatted_response = response.json()
-
-    emotions = formatted_response["emotionPredictions"][0]["emotion"]
-
-    return emotions
+    return response.text
